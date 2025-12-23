@@ -81,6 +81,9 @@ This project was developed as part of undergraduate NLP coursework and later ext
 📬 Contact
 
 Ahnaf Samin
+---
 Interested in NLP, AI/ML, and data-driven systems
-📎 LinkedIn: (add link)
+---
+📎 LinkedIn: [(add link)](https://www.linkedin.com/in/ahnafsamin7)
+
 
