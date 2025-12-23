@@ -79,11 +79,12 @@ Preprocessed for noise and informal spelling
 This project was developed as part of undergraduate NLP coursework and later extended to explore emoji-aware Bangla language modeling.
 
 📬 Contact
-
+---
 Ahnaf Samin
----
+
 Interested in NLP, AI/ML, and data-driven systems
----
+
 📎 LinkedIn: [(add link)](https://www.linkedin.com/in/ahnafsamin7)
+
 
 
