@@ -1,37 +1,37 @@
 # 🇧🇩 Bangla Sarcasm & Sentiment Detection with Emojis 😄😡
 
 ## 📌 Overview
-এই প্রজেক্টে বাংলা টেক্সটে **sarcasm এবং sentiment detection** করা হয়েছে, যেখানে **emoji-aware NLP** পদ্ধতি ব্যবহার করা হয়েছে।  
-বাংলা ভাষার ক্ষেত্রে emoji প্রায়ই sentiment বা sarcasm বোঝাতে গুরুত্বপূর্ণ ভূমিকা রাখে—এই প্রজেক্টে সেটাকেই কাজে লাগানো হয়েছে।
+This project focuses on **sarcasm and sentiment detection in Bangla text** using an **emoji-aware NLP pipeline**.  
+Emojis play a crucial role in expressing sentiment and sarcasm in Bangla social media content, and this work explicitly models that signal instead of ignoring it.
 
-The goal was to build an NLP pipeline that better understands **real-world Bangla social media text**, especially informal language mixed with emojis.
+The goal is to improve understanding of **real-world Bangla social media text**, especially informal language mixed with emojis.
 
 ---
 
 ## 🧠 Problem Statement
-Traditional Bangla NLP models often:
-- Emojis ignore করে ❌  
-- Sarcasm ভুলভাবে classify করে ❌  
-- Informal Bangla (Facebook / comments) handle করতে পারে না ❌  
+Most traditional Bangla NLP models struggle because they:
+- Ignore emojis ❌
+- Misclassify sarcastic content ❌
+- Perform poorly on informal Bangla (Facebook posts, comments) ❌  
 
-এই প্রজেক্টে এসব limitation address করার চেষ্টা করা হয়েছে।
+This project addresses these limitations by incorporating emoji-based features into the modeling pipeline.
 
 ---
 
 ## 🔍 Key Features
 - 📝 Bangla text preprocessing (normalization, cleaning)
-- 😀 Emoji extraction & encoding as features
-- 🧠 Sarcasm & sentiment classification
-- 📊 Comparative analysis: with vs without emoji features
-- 📉 Error analysis on sarcastic samples
+- 😀 Emoji extraction and encoding as features
+- 🧠 Sarcasm and sentiment classification
+- 📊 Comparative analysis (with vs without emoji features)
+- 📉 Error analysis focused on sarcastic samples
 
 ---
 
 ## ⚙️ Techniques Used
-- Tokenization & text normalization (Bangla-focused)
-- Emoji-to-sentiment mapping
-- TF-IDF / embedding-based features
-- Classical ML & deep learning models
+- Bangla-focused tokenization and normalization
+- Emoji-to-sentiment feature mapping
+- TF-IDF / embedding-based representations
+- Classical ML and deep learning models
 - Train–validation performance comparison
 
 ---
@@ -40,17 +40,17 @@ Traditional Bangla NLP models often:
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- PyTorch / TensorFlow (if used)
-- NLTK / custom Bangla preprocessing
+- PyTorch / TensorFlow
+- NLTK and custom Bangla preprocessing
 - Emoji library
 
 ---
 
 ## 📈 Results & Observations
-- Emoji-aware models showed **better sarcasm detection**
-- Improved classification on informal Bangla text
-- Reduced false positives in sentiment prediction
-- Emojis contributed meaningful semantic signals, especially in sarcastic contexts
+- Emoji-aware models showed **improved sarcasm detection**
+- Better performance on informal Bangla text
+- Reduced false positives in sentiment classification
+- Emojis provided meaningful semantic signals, especially in sarcastic contexts
 
 ---
 
@@ -59,24 +59,27 @@ Traditional Bangla NLP models often:
 pip install -r requirements.txt
 python train.py
 ```
-
 Or run the notebook:
-
 jupyter notebook
 
-🧪 Dataset Notes
+📂 Dataset
 
-Dataset contains Bangla text with emojis
+The dataset used in this project is publicly available on Mendeley Data:
 
-Focused on social media–style language
+🔗 https://data.mendeley.com/datasets/7ryvn5gw88/2
 
-Preprocessed for noise and informal spelling
+Due to size and licensing considerations, the dataset is not included in this repository.
 
-(Dataset is excluded / partially included due to size or privacy constraints)
+
+🇧🇩 বাংলা সংক্ষিপ্ত বিবরণ
+
+এই প্রজেক্টে বাংলা টেক্সটে sarcasm এবং sentiment detection করা হয়েছে, যেখানে emoji-aware NLP পদ্ধতি ব্যবহার করা হয়েছে।
+বাংলা সামাজিক যোগাযোগমাধ্যমে emoji প্রায়ই sarcasm ও sentiment বোঝাতে গুরুত্বপূর্ণ ভূমিকা রাখে—এই প্রজেক্টে সেটিকে কার্যকর feature হিসেবে ব্যবহার করা হয়েছে।
 
 🎓 Academic Context
 
-This project was developed as part of undergraduate NLP coursework and later extended to explore emoji-aware Bangla language modeling.
+This project was developed as part of undergraduate NLP thesis coursework and later extended to explore emoji-aware Bangla language modeling.
+
 
 📬 Contact
 ---
@@ -84,7 +87,4 @@ Ahnaf Samin
 
 Interested in NLP, AI/ML, and data-driven systems
 
-📎 LinkedIn: [(add link)](https://www.linkedin.com/in/ahnafsamin7)
-
-
-
+📎 LinkedIn: [(ahnafsamin7)](https://www.linkedin.com/in/ahnafsamin7)
