@@ -58,3 +58,29 @@ Traditional Bangla NLP models often:
 ```bash
 pip install -r requirements.txt
 python train.py
+```
+
+Or run the notebook:
+
+jupyter notebook
+
+🧪 Dataset Notes
+
+Dataset contains Bangla text with emojis
+
+Focused on social media–style language
+
+Preprocessed for noise and informal spelling
+
+(Dataset is excluded / partially included due to size or privacy constraints)
+
+🎓 Academic Context
+
+This project was developed as part of undergraduate NLP coursework and later extended to explore emoji-aware Bangla language modeling.
+
+📬 Contact
+
+Ahnaf Samin
+Interested in NLP, AI/ML, and data-driven systems
+📎 LinkedIn: (add link)
+
